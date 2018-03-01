@@ -1,6 +1,6 @@
 {
   "name": "slate-align",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Provides align for slate editor",
   "main": "dist/index.js",
   "repository": "git@github.com:zhujinxuan/slate-align.git",
@@ -43,7 +43,7 @@
   },
   "peerDependencies": {
     "immutable": "^3.8.2",
-    "slate": "^0.32.4"
+    "slate": ">0.32.4 <0.34.0"
   },
   "scripts": {
     "build:dist": "babel ./lib --out-dir ./dist",
