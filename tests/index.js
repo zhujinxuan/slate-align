@@ -2,9 +2,9 @@ import fs from 'fs';
 import assert from 'assert';
 import path from 'path';
 import { Schema } from 'slate';
-import EditTable from '../lib';
+import AlignPlugin from '../src';
 
-const plugin = EditTable();
+const plugin = AlignPlugin();
 const SCHEMA = Schema.create({
     plugins: [plugin]
 });
