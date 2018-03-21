@@ -67,7 +67,6 @@
     "build:rollup": "rollup --config ./support/rollup/config.js",
     "build:flow": "flow-copy-source -v ./src/ ./lib/",
     "build": "yarn build:rollup && yarn build:flow",
-    "postpublish": "yarn deploy-example",
     "lint": "eslint ./",
     "start": "webpack-dev-server --config ./support/webpack/config.js",
     "build-example": "cross-env NODE_ENV=production rollup --config ./support/rollup/config.js && cross-env NODE_ENV=production webpack --config support/webpack/config.js",
