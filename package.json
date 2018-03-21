@@ -1,6 +1,6 @@
 {
   "name": "slate-align",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Provides align for slate editor",
   "main": "lib/slate-align.js",
   "module": "lib/slate-align.es.js",
