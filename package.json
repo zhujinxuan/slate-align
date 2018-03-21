@@ -1,6 +1,6 @@
 {
   "name": "slate-align",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Provides align for slate editor",
   "main": "lib/slate-align.js",
   "module": "lib/slate-align.es.js",
@@ -77,6 +77,6 @@
   "dependencies": {
     "immutable": "^3.8.2",
     "slate": ">0.32.4 <0.34.0",
-    "slate-bind-copy-paste": "^0.0.16"
+    "slate-bind-copy-paste": "^0.1.0"
   }
 }
