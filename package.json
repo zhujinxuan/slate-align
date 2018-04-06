@@ -65,6 +65,7 @@
     "build:rollup": "rollup --config ./support/rollup/config.js",
     "build:flow": "flow-copy-source -v ./src/ ./lib/",
     "build": "yarn build:rollup && yarn build:flow",
+    "prepublish": "yarn build",
     "lint": "eslint ./",
     "start": "webpack-dev-server --config ./support/webpack/config.js",
     "build-example": "cross-env NODE_ENV=production rollup --config ./support/rollup/config.js && cross-env NODE_ENV=production webpack --config support/webpack/config.js",
@@ -74,9 +75,11 @@
   "keywords": [
     "slate"
   ],
-  "dependencies": {
+  "peerDependencies": {
     "immutable": "^3.8.2",
-    "slate": ">0.32.4 <0.34.0",
+    "slate": "^0.32.4 || ^0.33.0"
+  },
+  "dependencies" : {
     "slate-bind-copy-paste": "^0.1.0"
   }
 }
