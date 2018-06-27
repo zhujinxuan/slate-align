@@ -1,4 +1,2 @@
 # slate-align
-align plugin for slate editor
-
-Document will come in March
+The package has been moved to https://github.com/zhujinxuan/slate-sensible
